@@ -4,7 +4,7 @@ import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, si
 
 // إعدادات Firebase الخاصة بمشروعك
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY || "AIzaSyAYXXUp3PbZ1V7djrSznay69PTvHYIe4uY",
   projectId: "sat-app2",
   databaseURL: "https://sat-app2-default-rtdb.firebaseio.com",
 };
